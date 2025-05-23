@@ -62,3 +62,11 @@ print(f"Média: {media:.2f}")
 # * Distância percorrida: 300 km
 # * Combustível gasto: 25 litros
 # O programa deve calcular o consumo médio (km/l) e exibir todos os dados da viagem, incluindo o resultado final arredondado para duas casas decimais.
+# Resposta:
+distanciaPercorrida = 300
+combustivelGasto = 25
+consumoMedio = distanciaPercorrida / combustivelGasto
+print("\nCalculadora de Consumo de Combustível")
+print(f"Distância Percorrida: {distanciaPercorrida} km")
+print(f"Combustível Gasto: {combustivelGasto} litros")
+print(f"Consumo Médio: {consumoMedio:.2f} km/l")
