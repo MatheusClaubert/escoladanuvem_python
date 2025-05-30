@@ -20,3 +20,7 @@ def consultar_cotacao(moeda):
             print("Moeda não encontrada.")
     else:
         print("Erro ao consultar a API.")
+
+# Solicita ao usuário o código da moeda
+moeda = input("Digite o código da moeda (ex: USD, EUR, GBP): ").strip().upper()
+consultar_cotacao(moeda)
